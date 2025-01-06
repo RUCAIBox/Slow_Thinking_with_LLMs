@@ -1,4 +1,3 @@
-
 <div align=center>
 <h1>STILL: Slow Thinking with LLMs</h1>
 <a href="https://arxiv.org/abs/2412.09413" target="_blank"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv></a>
@@ -6,13 +5,11 @@
 <a><img src="https://img.shields.io/github/stars/RUCAIBox/Slow_Thinking_with_LLMs"></a>
 </div>
 
-
-
 We are STILL exploring the uncharted territory of o1-like reasoning systems.
 
 ## News
 
-+ [3 Jan 2025] [**STILL-Hallucination Mitigation**](#think-more-hallucinate-less-mitigating-hallucinations-via-dual-process-of-fast-and-slow-thinking): We propose **HaluSearch**, a framework that integrates tree search algorithms and a dynamic system switch mechanism, inspired by dual process theory, to reduce LLM hallucinations during inference.
++ [3 Jan 2025] [**STILL-Hallucination Mitigation**](#think-more-hallucinate-less-mitigating-hallucinations-via-dual-process-of-fast-and-slow-thinking-report): We propose **HaluSearch**, a framework that integrates tree search algorithms and a dynamic system switch mechanism, inspired by dual process theory, to reduce LLM hallucinations during inference.
 + [22 Dec 2024] We open-source part of the **training data** in [Github](data/public_long_form_thought_data_5k.jsonl) or [HuggingFace](https://huggingface.co/datasets/RUC-AIBOX/long_form_thought_data_5k) and the [**model**](https://huggingface.co/RUC-AIBOX/STILL-2) for community researchers to use for research purposes.
 + [12 Dec 2024] [**STILL-2**](#imitate-explore-and-self-improve-a-reproduction-report-on-slow-thinking-reasoning-systems-report): We preliminarily reproduce **a slow-thinking reasoning system**, achieving competitive performance compared to industry-level reasoning systems on these benchmarks! And we also release the [technical report](https://arxiv.org/pdf/2412.09413), which presents the details about our reproduction.
 + [18 Nov 2024] [**STILL-1**](#enhancing-llm-reasoning-with-reward-guided-tree-search-report): We release our first [technical report](https://arxiv.org/abs/2411.11694), where we leverage **reward-guided tree search algorithm** to assist LLM reasoning process and largely enhance the performance of LLM on complex reasoning tasks.
@@ -54,20 +51,18 @@ responses = model.generate(input_prompts, sampling_params)
 print(responses[0].outputs[0].text)
 ```
 
-
-
 ## Technical Report
 
 ### Imitate, Explore, and Self-Improve: A Reproduction Report on Slow-thinking Reasoning Systems [[Report]](https://arxiv.org/pdf/2412.09413)
 
 + Slow-thinking reasoning systems, such as o1, have demonstrated remarkable capabilities in solving complex reasoning tasks, and are primarily developed and maintained by industry, with their core techniques not publicly disclosed. This paper presents a reproduction report on implementing o1-like reasoning systems. We introduce an **imitate, explore, and self-improve framework** as our primary technical approach to train the reasoning model. In the initial phase, we use distilled long-form thought data to fine-tune the reasoning model, enabling it to invoke a slow-thinking mode. The model is then encouraged to explore challenging problems by generating multiple rollouts, which can result in increasingly more high-quality trajectories that lead to correct answers. Furthermore, the model undergoes self-improvement by iteratively refining its training dataset.
-  <img src="figures/report_2.jpg" alt="report_1" style="zoom:50%;" />
+  `<img src="figures/report_2.jpg" alt="report_1" style="zoom:50%;" />`
 
   <img src="figures/part_2_main_res.png" alt="report_1" style="zoom:50%;" />
 
 ### Enhancing LLM Reasoning with Reward-guided Tree Search [[Report]](https://arxiv.org/abs/2411.11694)
 
-+ Recently, test-time scaling has garnered significant attention from the research community, largely due to the substantial advancements of the o1 model released by OpenAI. However,  develop an o1-like reasoning approach is challenging, and  researchers have been making various attempts to advance this open area of research. In this paper, we present a preliminary exploration into enhancing the reasoning abilities of  LLMs through **reward-guided tree search algorithms**. This framework is implemented by integrating the policy model, reward model, and search algorithm. It is primarily constructed around a tree search algorithm, where the policy model navigates a dynamically expanding tree guided by a specially trained reward model. 
++ Recently, test-time scaling has garnered significant attention from the research community, largely due to the substantial advancements of the o1 model released by OpenAI. However,  develop an o1-like reasoning approach is challenging, and  researchers have been making various attempts to advance this open area of research. In this paper, we present a preliminary exploration into enhancing the reasoning abilities of  LLMs through **reward-guided tree search algorithms**. This framework is implemented by integrating the policy model, reward model, and search algorithm. It is primarily constructed around a tree search algorithm, where the policy model navigates a dynamically expanding tree guided by a specially trained reward model.
 
   <img src="figures/report_1.jpg" alt="report_1" style="zoom:50%;" />
 
@@ -79,7 +74,7 @@ print(responses[0].outputs[0].text)
 
 ## Future Work
 
-Despite the promising results, our exploration remains preliminary, and there is still a substantial capacity gap compared to industry-level systems. As future work, we plan to investigate how to scale our training approach and extend its capacity to more complex tasks. 
+Despite the promising results, our exploration remains preliminary, and there is still a substantial capacity gap compared to industry-level systems. As future work, we plan to investigate how to scale our training approach and extend its capacity to more complex tasks.
 
 As always, we are committed to keeping our technical approach *open*, and we will release the data, model, and other resources. We welcome collaboration and support in computational resources.
 
