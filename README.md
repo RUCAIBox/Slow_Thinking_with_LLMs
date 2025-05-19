@@ -14,8 +14,8 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
 
 ## Content List
 - [**Code-Integrated Reasoning**](#towards-effective-code-integrated-reasoning-report)
-- [**SimpleDeepSearcher**](#simpledeepsearcher-deep-information-seeking-via-web-powered-reasoning-trajectory-synthesis-notion
-)
+- [**ICPC-Eval**](#icpc-eval-probing-the-frontiers-of-llm-reasoning-with-competitive-programming-contests-report)
+- [**SimpleDeepSearcher**](#simpledeepsearcher-deep-information-seeking-via-web-powered-reasoning-trajectory-synthesis-notion)
 - [**OlymMATH**](#olymmath-challenging-the-boundaries-of-reasoning-an-olympiad-level-math-benchmark-for-large-language-models-report)
 - [**R1-Searcher**](#r1-searcher-incentivizing-the-search-capability-in-llms-via-reinforcement-learning-report)
 - [**STILL-3**](#still-3-an-empirical-study-on-eliciting-and-improving-r1-like-reasoning-models)
@@ -28,6 +28,7 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
 
 ## News
 + [2 June 2025] [**Code-Integrated Reasoning**](#towards-effective-code-integrated-reasoning-report): We propose an improved tool-augmented reinforcement learning approach for **code-integrated reasoning** that balances exploration and stability, achieving strong performance on five mathematical benchmarks. We further provide an in-depth analysis of the mechanisms behind code-integrated reasoning, explaining why and how it is effective. For More details, please refer to our [Project Page](https://github.com/RUCAIBox/CIR) and [Model](https://huggingface.co/RUC-AIBOX/Qwen-Math-7B-CIR).
++ [29 May 2025] [**ICPC-Eval**](#icpc-eval-probing-the-frontiers-of-llm-reasoning-with-competitive-programming-contests-report): We introduce ICPC-Eval, a new benchmark of 118 ICPC problems for evaluating LLM reasoning in competitive coding, featuring realistic ICPC competition scenario, robust local evaluation, and a iterative repair metrics Refine@K. We open-source our dataset, evaluation code, and paper. For more details, please refer to our [project page](https://github.com/RUCAIBox/ICPC-Eval) and [huggingface](https://huggingface.co/datasets/RUC-AIBOX/ICPC-Eval) 🤗.
 + [11 April 2025] [**SimpleDeepSearcher**](#simpledeepsearcher-deep-information-seeking-via-web-powered-reasoning-trajectory-synthesis-notion
 ): We propose the **SimpleDeepSearcher** framework, which aims to stimulate autonomous web search capabilities in large language models through knowledge distillation and self-distillation. By leveraging powerful reasoning models and a real-world web search environment, we carefully curated and filtered **871 high-quality training examples**, significantly enhancing model performance on complex information retrieval tasks and **outperforming existing reinforcement learning approaches**. All models and efficient fine-tuning datasets ([0.5k](https://huggingface.co/datasets/RUC-AIBOX/0.5k-data-SimpleDeepSearcher) and [0.8k](https://huggingface.co/datasets/RUC-AIBOX/0.8k-data-SimpleDeepSearcher)) have been open-sourced.For more details, please refer to our [project page](https://github.com/RUCAIBox/SimpleDeepSearcher) and [huggingface](https://huggingface.co/RUC-AIBOX/QwQ-32B-SimpleDeepSearcher) 🤗.
 + [8 April 2025] ⚡️⚡️We open source our [code](VERL-STILL) and [training data](https://huggingface.co/datasets/RUC-AIBOX/STILL-3-RL-90K) of STILL-3!
@@ -69,6 +70,22 @@ We investigate **Code-Integrated Reasoning**, an approach where models generate 
   <img src="figures/pass@k.png" width="666"/>
 </p>
 
+
+### ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests [[Report]](https://arxiv.org/abs/2506.04894)
+
+* 🧠 We introduce a new benchmark **ICPC-Eval** designed to evaluate the *reasoning ability* of LLMs under **realistic competitive programming environments**, based on **118 curated problems** from 11 recent ICPC regional contests worldwide.
+
+* 🏆 It captures the **true distribution of problem types and difficulty** found in real ICPC contests—far more representative than synthetic benchmarks or filtered OJ tasks.
+
+* 🔍 To overcome the limitations of metrics like Pass\@K, we propose **Refine\@K**, an *execution-feedback-driven metric* that measures iterative code refinement and simulates how models improve solutions over multiple attempts—more aligned with human competitive coding behavior.
+
+* 🧰 We provide a **robust local evaluation toolkit**, along with high-quality test cases, enabling fast and accurate validation *without relying on external online judges*.
+
+* 📉 Experimental results show that even state-of-the-art reasoning models like DeepSeek-R1 struggle to match top human teams and often require **multi-turn code refinement** to fully unlock their potential—highlighting the gap between LLMs and real-world competitive coders.
+
+<p align="center">
+  <img src="figures/model-performance.png" width="666"/>
+</p>
 
 ### SimpleDeepSearcher: Deep Information Seeking via Web-Powered Reasoning Trajectory Synthesis [[Notion]](https://sweet-walkover-f9b.notion.site/SimpleDeepSearcher-Deep-Information-Seeking-via-Web-Powered-Reasoning-Trajectory-Synthesis-1d1c27a43d7a801090d8ce1a75b2d6d0?pvs=4)
 

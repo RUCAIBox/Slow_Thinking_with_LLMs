@@ -1,0 +1,3 @@
+[submodule "ICPC-Eval"]
+	path = ICPC-Eval
+	url = git@github.com:RUCAIBox/ICPC-Eval.git
