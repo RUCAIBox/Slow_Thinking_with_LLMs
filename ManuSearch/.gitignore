@@ -1,0 +1,17 @@
+__pycache__/
+.vscode/
+venv/
+*.pyc
+*.pyo
+
+*.log
+*.log.*
+chatweb.*
+
+log/*
+
+nohup.out
+
+.env
+*.json
+*.jsonl
