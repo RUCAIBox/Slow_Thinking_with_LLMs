@@ -1,0 +1,12 @@
+python-dotenv
+streamlit
+streamlit-extras
+cachetools
+scrapy
+trafilatura
+json-repair
+htmldate
+pydantic
+requests
+openai
+asyncio
