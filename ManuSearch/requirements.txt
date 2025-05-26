@@ -1,0 +1,16 @@
+cachetools
+trafilatura
+json-repair
+htmldate
+pydantic
+requests
+openai
+asyncio
+numpy
+argparse
+aiohttp
+pdfplumber
+python-docx
+pandas
+bs4
+fake_useragent

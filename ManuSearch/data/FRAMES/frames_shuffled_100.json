@@ -1,0 +1,502 @@
+[
+  {
+    "q_id": 1,
+    "question": "What was the age difference at their deaths (in years) between Edgar Allan Poe and his rival, Rufus Wilmot Griswold, multiplied by 100?",
+    "answer": "200"
+  },
+  {
+    "q_id": 2,
+    "question": "Which species from the genus mulona are both found in the same country?",
+    "answer": "Mulona barnesi and mulona schausi"
+  },
+  {
+    "q_id": 3,
+    "question": "What is the shortest possible abbreviation in the United States for the  last to be discovered of the three antileprosy drugs on the World Health Organization's List of Essential Medicines?",
+    "answer": "R"
+  },
+  {
+    "q_id": 4,
+    "question": "Of all states within New England in the United States, which had a population between 400,000 and 800,000 in 1920?",
+    "answer": "Of the 6 states within New England, Maine, New Hampshire, and Rhode Island had populations between 400,000 and 800,000 in 1920."
+  },
+  {
+    "q_id": 5,
+    "question": "As of 1st November 2023, Which two South African drivers took part in the Formula One the year in which a micro-nation claimed territory off the coast of Suffolk, England? ",
+    "answer": "Dave Charlton and Luki Botha"
+  },
+  {
+    "q_id": 6,
+    "question": "David Fincher has two movies in the 90's that have numbers in the title. What is the number in the title of David Fincher's later-released movie multiplied by the ratio of the sum of all of the molars in an aardvark over the number of adult teeth in a dog?",
+    "answer": "13/3 or 4.333... (infinitely repeating decimal)"
+  },
+  {
+    "q_id": 7,
+    "question": "From 1924 to August 2024, how many times did Texas's and California's electoral colleges elect the same nominee during the presidential election? ",
+    "answer": "13 times."
+  },
+  {
+    "q_id": 8,
+    "question": "Which player scored more than 15 goals in Eredevisie during the 21-22 season and had previously played for Auxerre?",
+    "answer": "Sébastien Haller scored 21 goals that season and previously played for Auxerre."
+  },
+  {
+    "q_id": 9,
+    "question": "How old would the founder of the publishing company of the magazine that serialized the manga series Raw Hero have been the year the magazine ended publication?",
+    "answer": "145"
+  },
+  {
+    "q_id": 10,
+    "question": "What famous playable video game character is killed in their story for the purpose of creating a huge feeling of emptiness? To give a little help, this character also helps her family out by selling flowers she has grown, she knows and has traveled with a known eco-terrorist leader and also a owner of a bar in the slums.",
+    "answer": "Aerith Gainsborough."
+  },
+  {
+    "q_id": 11,
+    "question": "What is the population of the town (as of December 2020) that holds the Mountain Cheese Olympics?",
+    "answer": "5793"
+  },
+  {
+    "q_id": 12,
+    "question": "The screenwriter of the film, which received nominations for Best Screenplay and Best Actor in a Motion Picture - Drama at the 1995 Golden Globes, attended which Michigan university?",
+    "answer": "Grand Valley State University"
+  },
+  {
+    "q_id": 13,
+    "question": "Stamatios Krimigis was named after an asteroid by the IAU. The observing site that found this asteroid is part of a large observatory known for discovering a planet. What is the difference in years between the discovery of this asteroid and the discovery of the planet?",
+    "answer": "49 years"
+  },
+  {
+    "q_id": 14,
+    "question": "Who lit the Olympic cauldron in the Summer Games immediately following the release of Van Halen's sixth studio album?",
+    "answer": "Rafer Johnson lit the Olympic cauldron for the 1984 Summer Olympics, which began July 28, 1984, six months after the release of 1984 (stylized in Roman numerals as MCMLXXXIV), Van Halen's sixth studio album."
+  },
+  {
+    "q_id": 15,
+    "question": "How many more wins did the team with the number one seed from the NBA Western Conference in the 2020-2021 season have than the team with the fifth seed from the NBA Western Conference in the 2019-2020 season?",
+    "answer": "8"
+  },
+  {
+    "q_id": 16,
+    "question": "What was the age difference between Mike Tyson and Tyson Fury on the respective days on which they lost their first ever fights? Represent the figure in years only.",
+    "answer": "12 years."
+  },
+  {
+    "q_id": 17,
+    "question": "Who was the king of England when Isaac Newton first published his Principia?",
+    "answer": "James II of England"
+  },
+  {
+    "q_id": 18,
+    "question": "Which month had the third-lowest mean daily minimum temperature (recorded from 1876–1905) in the Japanese city which in 1720 was estimated to be the largest in the world?",
+    "answer": "December."
+  },
+  {
+    "q_id": 19,
+    "question": "What was the Enhanced Fujita Scale rating of the 2011 tornado that hit the hometown of the band who had a controversial interview with Bryan Odell on June 3, 2012?  ",
+    "answer": "EF5- Joplin, Missouri"
+  },
+  {
+    "q_id": 20,
+    "question": "Which fast food restaurant opened first, McDonald's, Wendy's or In-and-Out?",
+    "answer": "McDonald's in 1940"
+  },
+  {
+    "q_id": 21,
+    "question": "Emma Stone was the highest paid actress in 2017. How much did breakthrough movie for the highest paid actress 6 years after Emma Stone make in its theatrical run?",
+    "answer": "$406.9 million"
+  },
+  {
+    "q_id": 22,
+    "question": "Of Louis XVI, Louis XIV, and Louis XV, who was the youngest at their coronation? ",
+    "answer": "Louis XV"
+  },
+  {
+    "q_id": 23,
+    "question": "There's a comedy club on Sunset in West Hollywood that opened in 1972. One of its founders opened for one of Elvis' comeback performances. Where was this founder's first wife born?",
+    "answer": "Green Bay, Wisconsin"
+  },
+  {
+    "q_id": 24,
+    "question": "How many more letters does the name of the city that the director of \"Whiplash\" (2014) was born in have compared the name of the city in which the film first premiered?",
+    "answer": "2"
+  },
+  {
+    "q_id": 25,
+    "question": "If we added the sum of all ages as of 2010 (assuming they were still alive) of the inventors of the cotton gin, vacuum pump, and commercial toilet paper (ignoring the month) and then subtracted the ages of the inventors of the safety pin and the sewing machine what number would we have?",
+    "answer": "622"
+  },
+  {
+    "q_id": 26,
+    "question": "How many of the first 8 Harry Potter films based on the original 7 books were released in years when a United States presidential election took place, and what movies were they?",
+    "answer": "One of the original 8 Harry Potter films based on the original 7 books coincided with a U.S. presidential election, and the film was Harry Potter and the Prisoner of Azkaban."
+  },
+  {
+    "q_id": 27,
+    "question": "Houston, Texas had dozens of airports as of January 1, 2024. Find the three-letter IATA code of the airport in which the longest runway was exactly 7000 feet long, and rearrange those letters to match that of another airport at that time.  Here are your hints: The last letter of the re-arranged code is \"J\". The new airport was located in China.   With this information, what was the IATA code of this airport?",
+    "answer": "LNJ"
+  },
+  {
+    "q_id": 28,
+    "question": "What are the sizes of the two islands in Crater Lake in acres?",
+    "answer": "Phantom Ship is 2.3 acres. Wizard Island is 315.85 acres."
+  },
+  {
+    "q_id": 29,
+    "question": "As of 2020, what was the population of the city where Dippin' Dots were founded?",
+    "answer": "27,137"
+  },
+  {
+    "q_id": 30,
+    "question": "The number I am thinking about is the atomic number of the heavy metal that shares a name with the tier of the awards programme founded and chaired by Prince Philip that takes , at most, the same number of months to complete as the duration of an average pregnancy. What is the sum of the digits in this number?",
+    "answer": "11"
+  },
+  {
+    "q_id": 31,
+    "question": "Gifts to children from Krampus are principally composed of what element?",
+    "answer": "Krampus may give children a wooden rute or coal. They are both mostly composed of carbon."
+  },
+  {
+    "q_id": 32,
+    "question": "How old was the New-York born comic book writer who created the character Catwoman when he died?",
+    "answer": "83"
+  },
+  {
+    "q_id": 33,
+    "question": "What was the population in 2020 of the city that is in the name of the football team that won the Super Bowl five years before Matthew McConaughey won best actor at the Academy Awards?",
+    "answer": "302,971"
+  },
+  {
+    "q_id": 34,
+    "question": "Who was elected the United States President in the same year that a ship, which was named after the snake that some argue killed Cleopatra, wrecked after the United Kingdom captured it from France?",
+    "answer": "Andrew Jackson"
+  },
+  {
+    "q_id": 35,
+    "question": "In physics, when speaking of classical mechanics, there is an infamous problem that involves taking the initial positions and velocities of three point masses that orbit each other and attempting to calculate their trajectories. There is no general closed-form solution for this infamous problem. French mathematicians in the 18th century focused on solving this problem in regards to astronomical motion, specifically how the Moon rotates on its apsides. Their work led to a solution using Newton's laws of physics and the Discrete Fourier Transformation (DFT), which ultimately changed how sailors were able to determine longitude at sea. The inventor of the device that would revolutionize naval navigation using these new principles and proofs spent how many years testing and perfecting his work?",
+    "answer": "31 years (1730-1761)"
+  },
+  {
+    "q_id": 36,
+    "question": "I am thinking of a country. A former member of Swedish Parliament during 2002 – 2006 was born there. English is the official language but many other languages are spoken there. The Trans–West African Coastal Highway passes through this country. In June 2020, Democratic Party leaders in the United States caused controversy by wearing stoles made of cloth from this country. ",
+    "answer": "Ghana"
+  },
+  {
+    "q_id": 37,
+    "question": "Out of every team that has won at least one official global Valorant tournament, which team has also won at least one League of Legends World Championship and at least one CS:GO Major Championship as of 2024? ",
+    "answer": "Fnatic"
+  },
+  {
+    "q_id": 38,
+    "question": "What was the difference in population in the most populous town in the Isère department from 1946 to 1975?",
+    "answer": "63876"
+  },
+  {
+    "q_id": 39,
+    "question": "Who placed 2nd and 3rd against Katharina Molitor in her World Winning Championship, and what was the difference between the final gold and silver throws, and silver and bronze throws?",
+    "answer": "Katharina Molitor - 67.69m 1.56m difference Lü Huihui - 66.13m 0.34m difference Sunette Viljoen - 65.79m "
+  },
+  {
+    "q_id": 40,
+    "question": "How much time passed between the release of the blockchain platform founded by the individual who resides in the town of the same name as the James Buchanan House and the release of the prior blockchain platform co-founded by the same individual?",
+    "answer": "Wheatland, also known as the James Buchanan House, is the same name as the town in Wyoming where Charles Hoskinson resides.  Charles Hoskinson cofounded Ethereum and founded Cardano.  Cardano was released in 2017; Ethereum was released in 2015.  Two years elapsed between the two platforms' releases."
+  },
+  {
+    "q_id": 41,
+    "question": "The band Franz Ferdinand is named after Archduke Franz Ferdinand of Austria and a racehorse that the band watched win a race. How many years before the assassination of Archduke Franz Ferdinand was that race established?",
+    "answer": "The Northumberland Plate horse race was established 81 years before the assassination of Archduke Franz Ferdinand"
+  },
+  {
+    "q_id": 42,
+    "question": "What is the difference between the number of years served in the seventh-ratified US state's House of Delegates between that state's senator elected in 2007 and his uncle?",
+    "answer": "The seventh-ratified US state is Maryland. The senator of Maryland elected in 2007 is Ben Cardin. Ben Cardin served 20 years (1967 to 1987) and his uncle, Maurice Cardin, served 15 years (1951 to 1966) in the Maryland House of Delegates. 20 - 15 = 5 years difference, with Ben serving 5 more years."
+  },
+  {
+    "q_id": 43,
+    "question": "As of August 4, 2024, Rosamund Pike voices a character in a podcast about the so-called \"First Female President.\" How many siblings does the character have?",
+    "answer": "10"
+  },
+  {
+    "q_id": 44,
+    "question": "Tiny Tina's Wonderlands' developer released a game 10 years prior to Tiny Tina's Wonderlands' release, this game was released on PC and Consoles. What is the name of the central antagonist of that game?",
+    "answer": "Handsome Jack."
+  },
+  {
+    "q_id": 45,
+    "question": "Who won the World series the year Happy Days premiered?",
+    "answer": "The Oakland Athletics"
+  },
+  {
+    "q_id": 46,
+    "question": "Which Lord of Montpellier had a child named Tortoseta?",
+    "answer": "William VIII of Montpellier"
+  },
+  {
+    "q_id": 47,
+    "question": "A 1986 song by Peter Gabriel shares the name with a tool. What is the name of the tool and how does it look?",
+    "answer": "Sledgehammer: A tool with a large, flat, often metal head, attached to a long handle."
+  },
+  {
+    "q_id": 48,
+    "question": "The US Naval ship that sunk in Havana Harbor on February 15, 1898, is named for a state that was admitted to the Union while what woman was serving as First Lady?",
+    "answer": "Elizabeth Monroe"
+  },
+  {
+    "q_id": 49,
+    "question": "As of the financial year ending July 31st 2023, what was the size of the endowment at the university attended by rugby player Fred McLeod?",
+    "answer": "£559.8 million"
+  },
+  {
+    "q_id": 50,
+    "question": "What is the full name of the district where the Memory of Mankind project is located?",
+    "answer": "Bezirk Gmunden"
+  },
+  {
+    "q_id": 51,
+    "question": "Which Pope served the longest between the Battle of the Milvian Bridge and the end of the Civil Wars of the Tetrarchy?",
+    "answer": "St. Sylvester I, whose Latin name was Silvester"
+  },
+  {
+    "q_id": 52,
+    "question": "Who was the United States President when Chile won their first Copa America?",
+    "answer": "Barack Obama"
+  },
+  {
+    "q_id": 53,
+    "question": "How long did Steve Jobs live, percentage wise, compared to the average lifespan of a person in the United States in 1984? Round each number to the nearest whole integer before calculating your answer. Then round your answer the nearest hundredth. ",
+    "answer": "75.68%"
+  },
+  {
+    "q_id": 54,
+    "question": "How old was the Commander-in-Chief of India from 1865-1870 when he died? How old was his wife when she died? Average these two numbers, rounding up to the nearest whole integer if necessary.  ",
+    "answer": "William Mansfield, 1st Baron Sandhurst was 57 at the time of his death. His wife, Margaret Mansfield, Baroness Sandhurst was aged 64 at the time of her death. Their average lifespan was 61 years old."
+  },
+  {
+    "q_id": 55,
+    "question": "What language is the main character's name in in the Disney film that came out in 1994?",
+    "answer": "Swahili"
+  },
+  {
+    "q_id": 56,
+    "question": "As of August 3, 2024, which rabbi worked for both Reform Congregation Keneseth Israel in Philadelphia and Congregation Beth Israel in West Hartford, Connecticut?",
+    "answer": "Abraham J. Feldman worked for both congregations serving as an interim associate rabbi at the Reform Congregation Keneseth Israel and the leader of the Congregation Beth Israel."
+  },
+  {
+    "q_id": 57,
+    "question": "This deceased American singer and songwriter who's song about censorship was nominated for a Grammy Award (for Best Hard Rock Performance) in the same year that was designated as International Space Year by the United Nations. How many letters are in his name?",
+    "answer": "11 (Layne Staley)"
+  },
+  {
+    "q_id": 58,
+    "question": "Suppose Egon Sendler's book \"Les mystères du Christ: Icônes de la liturgie\" was written in the same year as the birth of Nemanja Markovic. How old would the book be when the New Hampshire state election results for the Democratic party were 53.9% and 125,822 votes?",
+    "answer": "51 years."
+  },
+  {
+    "q_id": 59,
+    "question": "Which of the following albums came out on a date closest to the date that Nancy Kerrigan was assaulted? What about which album was closest to the date of Harding's plea deal? Awake by Dream Theater Inside Out by Fates Warning Promised Land by Queensryche Dreamspace by Stratovarius",
+    "answer": "Dreamspace' by Stratovarius."
+  },
+  {
+    "q_id": 60,
+    "question": "As of August 3, 2024, what is the sum of the birth years of every tennis player to both represent the country that tennis was first played and complete a Grand Slam.",
+    "answer": "5980"
+  },
+  {
+    "q_id": 61,
+    "question": "As of August 3rd, 2024, which Moose Jaw Warrior with a retired number was born on May 29, 1967?",
+    "answer": "Mike Keane"
+  },
+  {
+    "q_id": 62,
+    "question": "I am thinking of a Ancient Roman City.  The city was destroyed by volcanic eruption.  The eruption occurred in the year 79 AD.  The volcano was a stratovolcano.    Where was the session held where it was decided that the city would be named a UNESCO world heritage site?",
+    "answer": "Naples"
+  },
+  {
+    "q_id": 63,
+    "question": "If you take the height of the Eiffel Tower in metres, add the number of arrondissements in Paris and subtract the street number of the official residence of the French prime minister, is the final answer a prime number?",
+    "answer": "Yes"
+  },
+  {
+    "q_id": 64,
+    "question": "What was the difference in original sale price between Tom Thomson’s “Northern River” and “Northern Lake”",
+    "answer": "The difference in price was $250."
+  },
+  {
+    "q_id": 65,
+    "question": "Who was the manager of the team that won the first Football League after the death of Queen Victoria?",
+    "answer": "Tom Watson was the manager of Liverpool F.C. in 1901."
+  },
+  {
+    "q_id": 66,
+    "question": "Which cities hosted the Olympics in 1988, and where were the opening ceremonies held in each city?",
+    "answer": "Calgary- Winter Olympics, opening ceremony held at McMahon Stadium. Seoul- Summer Olympics, opening ceremony held at Seoul Olympic Stadium."
+  },
+  {
+    "q_id": 67,
+    "question": "How many years were there between Heath Ledger's birth and the first successful use of a special human extraction technology that appeared in a Batman movie that Ledger starred in?",
+    "answer": "21 years."
+  },
+  {
+    "q_id": 68,
+    "question": "What is the birthplace and hometown of the winning goal scorer of the 2010 Vancouver Olympics, Men's Ice Hockey event?",
+    "answer": "Halifax"
+  },
+  {
+    "q_id": 69,
+    "question": "What is the famous novel by the wife of the 19th-century poet who wrote about an Egyptian pharaoh who reigned sometime between 1290 and 1200 B.C.?",
+    "answer": "Frankenstein"
+  },
+  {
+    "q_id": 70,
+    "question": "The founder of the eponymous music school at the University of Rochester held the patent for an item that later earned him a star on the Hollywood Walk of Fame. How many years passed between his initial patent and the placement of his star?",
+    "answer": "75"
+  },
+  {
+    "q_id": 71,
+    "question": "What is so distinctive about the label design of an Australian record label which was purchased in 1960 by another record label which produced the debut album for The Clash?",
+    "answer": "The octagonal shape"
+  },
+  {
+    "q_id": 72,
+    "question": "As of July 1, 2024, if I wanted to give my daughter the middle name of the American woman who is the most decorated female in the history of American gymnastics as her first name and the full first name of the American woman who holds the world record in the 800-meter freestyle as her middle name, what would I name my daughter? ",
+    "answer": "Arianne Kathleen"
+  },
+  {
+    "q_id": 73,
+    "question": "There's a famous children's book about a King Elephant. At what age did the French author die?",
+    "answer": "37 years old."
+  },
+  {
+    "q_id": 74,
+    "question": "How old was the first minister of the Ministry of Digital Affairs in Poland when Andrzej Halicki became minister?",
+    "answer": "The first minister of the Ministry of Digital Affairs in Poland Anna Streżyńska was 47 years old when Andrzej Halicki became minister in 2014. Anna Streżyńska was born on May 11th, 1967."
+  },
+  {
+    "q_id": 75,
+    "question": "What made-for-TV movie did Dolly Parton have a role in the same year that Dolly the sheep was cloned?",
+    "answer": "In 1996, the year Dolly the sheep was cloned, Dolly Parton had a role in the made-for-tv movie \"Unlikely Angel\"."
+  },
+  {
+    "q_id": 76,
+    "question": "According to the 2011 census, what is total population of the cities of the birthplaces of author Clive Barker, Prince William, and Sir Malcolm Stanley Bradbury? Round to the nearest 100,000. ",
+    "answer": "11,300,000"
+  },
+  {
+    "q_id": 77,
+    "question": "What teammates were inducted into the college football hall of fame who played the same year as the first Native American to get a gold medal in the Olympics for the United States?",
+    "answer": " Gus Welch, and William \"Lone Star\" Dietz."
+  },
+  {
+    "q_id": 78,
+    "question": "What was the average launch mass of Apollo 11, Apollo 12, and Apollo 13 in kilograms, rounded to the nearest integer?",
+    "answer": "The average launch mass in kilograms rounded to the nearest integer of Apollo 11, Apollo 12, and Apollo 13 is 47,906 kilograms."
+  },
+  {
+    "q_id": 79,
+    "question": "Where was the Winter Olympics held the year that the girl who was Wheaties first official spokeswoman turned 20 years old?",
+    "answer": "Calgary, Alberta, Canada"
+  },
+  {
+    "q_id": 80,
+    "question": "When the maker of the third-party console title \"ActRaiser\", merged with the makers of the console title \"Chrono Trigger\", what percentage of the company did the makers of \"ActRaiser\" make up?",
+    "answer": "20% of the company."
+  },
+  {
+    "q_id": 81,
+    "question": "As of August 3rd 2024, which movie using the Technicolor dye-transfer process was the last to win the Academy Award for Best Picture?",
+    "answer": "The movie using the Technicolor dye-transfer process that was the last to win the Academy Award for Best Picture was \"The Godfather Part II.\""
+  },
+  {
+    "q_id": 82,
+    "question": "Which major city in Europe can be reached from New York City, if you use the total distance calculated through GPA coordinates (give or take 18 miles) from West Quoddy Light in Maine to Cape Sarichef Light in Alaska?",
+    "answer": "Prague, Czech Republic"
+  },
+  {
+    "q_id": 83,
+    "question": "This founder of the Academy of Science, St. Louis became established as a botonist for a monograph he did in 1842. What is the scientic name for plant featured in that monograph?",
+    "answer": "Cuscuta"
+  },
+  {
+    "q_id": 84,
+    "question": "How many years after Anton Grylewicz's date of birth was the second SpongeBob Squarepants movie released? Round down to the nearest year (e.g. January 1999 to December 2000 = 1 year, despite being closer to 2). ",
+    "answer": "130"
+  },
+  {
+    "q_id": 85,
+    "question": "As of August 2024, who was president of the United States the last time The Beach Boys topped the chart on the Billboard Hot 100?",
+    "answer": "Ronald Reagan"
+  },
+  {
+    "q_id": 86,
+    "question": "Which Kiwi author died the same year as the first British Prime Minister to be elected after the end of World War 1?",
+    "answer": "Katherine Mansfield"
+  },
+  {
+    "q_id": 87,
+    "question": "As of August 2024, the Atlanta Braves beat the Houston Astros the last time they won the World Series. How many years before this did Jackie Robinson join the Brooklyn Dodgers?",
+    "answer": "74 years"
+  },
+  {
+    "q_id": 88,
+    "question": "Of the 'Big Four' of Thrash Metal, whose debut full-length was released first?",
+    "answer": "Metallica"
+  },
+  {
+    "q_id": 89,
+    "question": "There is a speech-sound disorder, not caused by a structural abnormality, for which one symptom is rearranging sounds of a word. The term for the disorder was first defined in 1908 by a German neuroscientist with the first name Hugo. Why was the Nobel Peace Prize given to an American the same year Hugo died?",
+    "answer": "For his crucial role in bringing about the Dawes Plan."
+  },
+  {
+    "q_id": 90,
+    "question": "Which two rivers pass through the hometown of a famous Chinese philosopher who was born as Kong Qiu",
+    "answer": "The Si River and the Yi River pass through Qufu, Confucius' home town."
+  },
+  {
+    "q_id": 91,
+    "question": "A general motors vehicle is named after the largest ward in the country of Monaco.  How many people had walked on the moon as of the first model year of the vehicle? Note: the model year is not the same as the year the model was first produced.",
+    "answer": "4"
+  },
+  {
+    "q_id": 92,
+    "question": "As of August 4, 2024, what is the first initial and surname of the cricketer who became the top-rated test batsman in the 2020s, is the fastest player of their country to 6 1000 run milestones in tests, and became their country's all-time leading run scorer in tests in the same year?",
+    "answer": "K. Williamson"
+  },
+  {
+    "q_id": 93,
+    "question": "What is the average height of Mount Everest, Mount Thor, Mount Denali and The Matterhorn?",
+    "answer": "17382 ft."
+  },
+  {
+    "q_id": 94,
+    "question": "Of the top two most watched television season finales (as of June 2024), which finale ran the longest in length and by how much? ",
+    "answer": "The MASH finale ran for 52 minutes longer than the Cheers finale."
+  },
+  {
+    "q_id": 95,
+    "question": "As of August 1, 2024, who is the president of the team that inspired the original name of the Washington Commanders?",
+    "answer": "Derek Schiller"
+  },
+  {
+    "q_id": 96,
+    "question": "How much money would be left of Elon Musk's net worth in January of 2021, if you subtracted the 2022 average yearly gross salary of 10,000 people, working in the Philippines, written in words?",
+    "answer": "one hundred eighty-four billion nine hundred fifty-nine million four hundred forty thousand."
+  },
+  {
+    "q_id": 97,
+    "question": "Who won the third-place playoff at the UEFA World Cup while Donald Trump was in office as the 45th President of the United States?",
+    "answer": "Belgium"
+  },
+  {
+    "q_id": 98,
+    "question": "What NBA team was founded three years before the Apollo 11 crew landed on the moon?",
+    "answer": "The Chicago Bulls"
+  },
+  {
+    "q_id": 99,
+    "question": "How many times larger was the population of the city of Paris, 19 years after the year designated as The International Year for the Culture of Peace by the United Nations, than the population of Brown County, Kansas according to its 2020 census? Round the answer to the nearest whole number.",
+    "answer": "228 times larger"
+  },
+  {
+    "q_id": 100,
+    "question": "I am thinking of a province that has the smallest land area in it's particular country, but also has the the 10th largest population.  This country has 10 provinces.  This province joined the country in 1873.  What is the scientific name of the provincial flower?",
+    "answer": "Cypripedium Acaule"
+  }
+]
