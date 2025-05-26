@@ -109,15 +109,15 @@ python run_manusearch.py \
 - `--proxy`: "port-based proxy(e.g., localhost:8080)"
 - `--google_subscription_key`: Your serper.dev Google Search API subscription key.
 - `--google_search_topk`: topk returned documents for google search.
-- ` --planner_model_name`: "Name of the planner model to use"\
--  `--planner_api_base`: "Base URL for the API endpoint"\
--  `--planner_api_key`: "api key for the planner model API endpoint"\
--  `--searcher_model_name`: "Name of the searcher model to use"\
--  `--searcher_api_base`: "Base URL for the API endpoint"\
--  `--searcher_api_key`: "api key for the searcher model API endpoint"\
--  `--reader_model_name`: "Name of the reader model to use"\
--  `--reader_api_base`: "Base URL for the API endpoint"\
--  `--reader_api_key`: "api key for the reader model API endpoint"\
+- ` --planner_model_name`: "Name of the planner model to use".
+-  `--planner_api_base`: "Base URL for the API endpoint".
+-  `--planner_api_key`: "api key for the planner model API endpoint".
+-  `--searcher_model_name`: "Name of the searcher model to use".
+-  `--searcher_api_base`: "Base URL for the API endpoint".
+-  `--searcher_api_key`: "api key for the searcher model API endpoint".
+-  `--reader_model_name`: "Name of the reader model to use".
+-  `--reader_api_base`: "Base URL for the API endpoint".
+-  `--reader_api_key`: "api key for the reader model API endpoint".
 
 
 ### Evaluation
