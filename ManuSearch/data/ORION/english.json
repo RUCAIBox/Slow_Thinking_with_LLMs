@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "question": "As of 2025, according to Wikipedia, what is the difference between the number of players who have won the NBA Finals MVP while representing the Los Angeles Lakers and the number of Golden Globe winners for Best Television Series – Drama from 2020 to 2023 whose broadcasting platform included Disney+?",
+    "answer": "['7']"
+  },
+  {
+    "id": 2,
+    "question": "As of 2024, which signatories of the Outer Space Treaty have launched lunar probes in the past five years, have capitals located between longitudes 100°E and 130°E, and have current leaders with a STEM background?",
+    "answer": "['China']"
+  },
+  {
+    "id": 3,
+    "question": "Which session of the Golden Rooster Award for Best Children's Film was the film that won the nomination for the Outstanding Children's Film Award at the 6th China Film Huabiao Awards nominated for?",
+    "answer": "['20th']"
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between the total number of medals won by the United States and the average number of medals won by the top 10 North American countries on the medal table in the Olympic Games hosted by the opponent Obama defeated in the 2012 presidential election, with the answer taken as an absolute value and retained to one decimal place?",
+    "answer": "['8.5']"
+  },
+  {
+    "id": 5,
+    "question": "In what year did the earliest born of the seven astronauts involved in the Mercury program die?",
+    "answer": "['2016']"
+  },
+  {
+    "id": 6,
+    "question": "How many Danish Superliga titles have been won between 2020 and 2024 by Danish players signed by Werder Bremen for the 2022-23 season who played for the team before joining Werder Bremen?",
+    "answer": "['2 ', ' two times']"
+  },
+  {
+    "id": 7,
+    "question": "Who succeeded the spouse of the first U.S. First Lady fluent in Mandarin as U.S. Secretary of Commerce after their term ended?",
+    "answer": "['William F. Whiting']"
+  },
+  {
+    "id": 8,
+    "question": "On what date did construction begin on the last of the German torpedo boats named after beast that were sunk?",
+    "answer": "['1927.5.4']"
+  },
+  {
+    "id": 9,
+    "question": "As of 2025, in the Champions League final held at the Santiago Bernabeu Stadium, how many times has the team that won the final with the highest total number of goals won the Champions League title?",
+    "answer": "['7 ', ' 7 times']"
+  },
+  {
+    "id": 10,
+    "question": "As of 2024, how many years later was the global release of the Microsoft Windows version of Final Fantasy XV compared to the release year of another game using the same engine as Final Fantasy XV? (Round the answer to the nearest integer)",
+    "answer": "['5', '5 years']"
+  },
+  {
+    "id": 11,
+    "question": "Which was the second longest-lasting ancient Chinese reign name used by the previous dynasty whose reign name was Xuantong",
+    "answer": "['Jiajing']"
+  },
+  {
+    "id": 12,
+    "question": "According to Wikipedia, as of 2022, who among the recipients of the Foot in Mouth Award supported the impeachment of Donald Trump twice?",
+    "answer": "['Mitt Romney']"
+  },
+  {
+    "id": 13,
+    "question": "Which scientist won the Nobel Prize in physics in the year the last Chinese era name \"Xuantong\" ended?",
+    "answer": "['Nils Gustaf Dalén', 'Gustaf Dalén', 'Nils Dalén']"
+  },
+  {
+    "id": 14,
+    "question": "The Japanese manga artist who created 'D.Gray-man' served as the character designer for an anime in 2013. According to Wikipedia, what is the prime number closest to the difference between the weight of the heaviest mechanical object in this anime and the total weight of steel used in the Statue of Liberty, rounded to the nearest integer?",
+    "answer": "['167']"
+  },
+  {
+    "id": 15,
+    "question": "What is the area in square kilometers of the fifth most populous city in the Jura department of France in 2020, rounded up to the nearest whole number?",
+    "answer": "['45']"
+  },
+  {
+    "id": 16,
+    "question": "As of 2024, how many buildings in Central, Hong Kong, have a height exceeding 250 meters?",
+    "answer": "['4']"
+  },
+  {
+    "id": 17,
+    "question": "As of 2024, how many times has the team that finished as the runner-up in the FIFA World Cup held for the second time by the country with the most championship titles in World Cup history finished as runner-up in the tournament’s history?",
+    "answer": "['3 ', ' three']"
+  },
+  {
+    "id": 18,
+    "question": "The recipient of the IEEE FRANK ROSENBLATT AWARD in 2015 was awarded the Dr. A. De Leeuw-Damry-Bourlart Award in Applied Science in 2005. Who is the father of the person who gave him this award in 2005?",
+    "answer": "['Leopold III of Belgium', 'Leopold Filips Karel Albert Meinrad Hubertus Maria Miguel', 'Léopold Philippe Charles Albert Meinrad Hubertus Marie Miguel']"
+  },
+  {
+    "id": 19,
+    "question": "According to Wikipedia, how many of Shakespeare's comedic works have translated Chinese titles that include numerals?",
+    "answer": "['4']"
+  },
+  {
+    "id": 20,
+    "question": "What year was it when the work of the author of the child-damaged painting on display at the Boijmans Van Beuningen Museum in Rotterdam was sold for more than the highest-ever auction price for a contemporary artwork?",
+    "answer": "['2012']"
+  },
+  {
+    "id": 21,
+    "question": "How many German Champions/Bundesliga had Bayern won by the year the scientist who won the Gerald Kuiper Prize in 1991 was elected to the US National Academy of Sciences?",
+    "answer": "['5']"
+  },
+  {
+    "id": 22,
+    "question": "Where is the birthplace of the person enshrined in the main hall of the ancient Buddhist temple with the most rooms in Vietnam?",
+    "answer": "['Lumbinī','Nepal']"
+  },
+  {
+    "id": 23,
+    "question": "As of 2024, how many world records have been broken by the man who succeeded Thomas Bach as President of the International Olympic Committee?",
+    "answer": "['3']"
+  },
+  {
+    "id": 24,
+    "question": "Which Nobel Peace Prize laureate (2000–2024) led an organization with offices in at least three UN Security Council member states and an annual reported budget exceeding $100 million?",
+    "answer": "['WFP', 'World Food Programme']"
+  },
+  {
+    "id": 25,
+    "question": "According to Wikipedia, what was the population of the city where the second gallery of the Museum of Bad Art (MOBA) opened in 2020?",
+    "answer": "['81045']"
+  },
+  {
+    "id": 26,
+    "question": "According to Wikipedia, what is the drainage basin area, rounded to the nearest whole number in square kilometers, of the river that originates in Éguzon, France?",
+    "answer": "['596 square kilometers ', ' 596']"
+  },
+  {
+    "id": 27,
+    "question": "As of 2025, how many matches in total did the team of the mid laner with the most League of Legends World Championship titles play in the knockout stage (quarterfinals, semifinals, and finals) the last time they won the World Championship?",
+    "answer": "['12']"
+  },
+  {
+    "id": 28,
+    "question": "By 2025, the player who has won the Men's Singles title at the French Open the most times has beaten his opponent in winning the Men's Singles title at the French Open for the second time. How many times did this opponent finish second in the Masters on the type of court with the most runner-up finishes until 2008?",
+    "answer": "['6']"
+  },
+  {
+    "id": 29,
+    "question": "How many children did the father of the Roman Emperor, who was excommunicated by Pope John XXII, have?",
+    "answer": "['8']"
+  },
+  {
+    "id": 30,
+    "question": "According to World Population Review, how many European capital cities with populations over 3 million have ratified the World Heritage Convention, have metro systems older than 50 years, and hosted the Olympics within 30 years of their metro system's inauguration?",
+    "answer": "['2']"
+  },
+  {
+    "id": 31,
+    "question": "A Japanese-born Nobel Laureate in Physics published a seminal paper 15 years before the prize was awarded. He signed a manifesto after the award, and he signed it with how many other physicists?",
+    "answer": "['7']"
+  },
+  {
+    "id": 32,
+    "question": "The battle that marked the end of the Napoleonic Wars was fought in a town whose English name contained a specific number of consonants. If you multiply the number of consonants by the number of allied nations in the battle, what is the number of different prime factors of the product?",
+    "answer": "['2']"
+  },
+  {
+    "id": 33,
+    "question": "According to the American Journal of Transportation (AJOT), which Chinese port ranked among the top 20 container ports globally in 2023 experienced the second-largest decline in throughput compared to 2022?",
+    "answer": "['Kaohsiung Port']"
+  },
+  {
+    "id": 34,
+    "question": "According to data from Bing Maps and a 2023 paper by researchers from Hugging Face and Carnegie Mellon University, how many thousand 1024×1024 images generated by Stable Diffusion XL would produce an amount of CO₂ equivalent to that emitted by a gasoline-powered car traveling from Los Angeles to San Francisco via I-5 N and I-580 W, with the mileage rounded to the nearest integer?",
+    "answer": "['93']"
+  },
+  {
+    "id": 35,
+    "question": "As of July 2024, what is the difference in the total number of World Heritage Sites between the country with the second-highest number of cultural sites and the country with the second-highest number of overall World Heritage Sites?",
+    "answer": "['5']"
+  },
+  {
+    "id": 36,
+    "question": "Which cities hosting UN Climate Conferences (COP) since 2015 are coastal, have populations under 2 million, and experienced their hottest recorded temperature within 3 years of hosting?",
+    "answer": "['Sharm El Sheikh']"
+  },
+  {
+    "id": 37,
+    "question": "Which city is the capital of the province where the athlete who completed the first \"hat-trick\" in Augsburg's Bundesliga history was born?",
+    "answer": "['Paris']"
+  },
+  {
+    "id": 38,
+    "question": "Who was the lead actor in the first film directed by the heroine of the French film \"La Boum\"?",
+    "answer": "['Niels Arestrup']"
+  },
+  {
+    "id": 39,
+    "question": "As of December 2024, how many days had passed between the earliest sample collection and the designation as a Variant Under Monitoring (VUM) for the only SARS-CoV-2 variant that has shown a sustained global transmission trend?",
+    "answer": "['90']"
+  },
+  {
+    "id": 40,
+    "question": "According to Wikipedia, how many fewer spectators can the home stadium of VfB Stuttgart accommodate compared to the home stadium of Arsenal Football Club in 2024?",
+    "answer": "['263']"
+  },
+  {
+    "id": 41,
+    "question": "There is a fictional ‘Bronte Tower’ in London whose height (in feet) is equal to the Dewey Decimal Classification Number of Charlotte Bronte's Jane Eyre (published in 1847). If this tower is completed in 2024, how many buildings in London taller than it also have viewing platforms open to the public? List them in descending order of building height.",
+    "answer": "['2,The Shard,22 Bishopsgate']"
+  },
+  {
+    "id": 42,
+    "question": "According to Wikipedia, what is the ratio—rounded to two decimal places—of the area of the municipality where the person who proposed the fundamental law describing the interaction between two point charges died to that of the municipality where they were born?",
+    "answer": "['4.82']"
+  },
+  {
+    "id": 43,
+    "question": "The height of the dam in metres is equal to the number of permanent members of the United Nations Security Council multiplied by the minimum Beaufort Scale value where the warning signs have two colours. What is the ratio of the height of the Three Gorges Dam in China to the height of that dam, with answers rounded to two decimal places?",
+    "answer": "['3.62']"
+  },
+  {
+    "id": 44,
+    "question": "According to FAOSTAT, which country was among the world’s top eight olive oil producers in 2007 but not in 2022?",
+    "answer": "['Algeria']"
+  },
+  {
+    "id": 45,
+    "question": "From cities hosting the Summer Olympics between 1990–2020, how many have subway systems older than 100 years, and which such city’s metro opened closest to the start of World War I?",
+    "answer": "['3, Paris']"
+  },
+  {
+    "id": 46,
+    "question": "According to Wikipedia, in 2020, how many thousand people did the population of the state where US President John F. Kennedy was born differ from that of the state where he died in 2020? The result is rounded to the nearest whole number.",
+    "answer": "['22,150 thousand','22150']"
+  },
+  {
+    "id": 47,
+    "question": "What percentage of his life did the Mughal Emperor who reigned in 1799 spend on the throne, rounded to two decimal places?",
+    "answer": "['58.97%']"
+  },
+  {
+    "id": 48,
+    "question": "Which actor, born in the 1970s, starred in a Best Picture Oscar-winning film released in the 2010s and directed a film won National Board of Review Awards?",
+    "answer": "['Ben Affleck']"
+  },
+  {
+    "id": 49,
+    "question": "According to Wikipedia, how many Red Hot Chili Peppers studio albums have ever reached #1 on the Official New Zealand Music Chart?",
+    "answer": "['9']"
+  },
+  {
+    "id": 50,
+    "question": "What is the ratio of the number of kilometres from Yaroslavl station on the Siberian Railway to the nearest station on the Yenisei River to the number of kilometres from the world's highest civilian airport in metres above sea level, with the answer rounded off to two decimal places?",
+    "answer": "['0.92']"
+  },
+  {
+    "id": 51,
+    "question": "According to Wikipedia, how many more days did the astronaut with the most spaceflight times than the astronaut with the second most spaceflight times spend in space on the Apollo missions, which planned to used colour cameras for the first time to broadcast live to Earth?",
+    "answer": "['36']"
+  },
+  {
+    "id": 52,
+    "question": "Among the authors who have been nominated for the Nobel Prize in Literature several times but have not won the prize, assume the author whose work is set in the Napoleonic Wars and died after the 100th anniversary of Napoleon's birth is A. What is the average life expectancy of all A's children who were over the age of 10 years at the time of their death,with the answer rounded off to two decimal places?",
+    "answer": "['68.38']"
+  },
+  {
+    "id": 53,
+    "question": "Among the rivers in the world that are over 1,000 kilometers in length, which country is traversed by all those that ultimately flow into the Arabian Sea?",
+    "answer": "['India']"
+  },
+  {
+    "id": 54,
+    "question": "According to Wikipedia, what is the multiple, rounded to one decimal place, of the number of days between the premiere of the final season of House of Cards on Netflix and the start date of Donald Trump's first impeachment, compared to the number of years between Mikhail Gorbachev's earliest speech on the 'Common European Home' and the premiere of the HBO series Chernobyl?",
+    "answer": "['12.8']"
+  },
+  {
+    "id": 55,
+    "question": "As of 2020, the person who received the Copley Medal most frequently was awarded it a second time in a certain year. The individual who received the Copley Medal 200 years after that year—what book summarizes their greatest achievement?",
+    "answer": "['The Palace of Minos at Knossos']"
+  },
+  {
+    "id": 56,
+    "question": "Among the scientists who graduated from the same alma mater as the developer of the first working programmable, fully automatic digital computer and received a Nobel Prize in the 1980s, which one has a descendant who holds a position at the University of Wuppertal?",
+    "answer": "['Wolfgang Paul']"
+  },
+  {
+    "id": 57,
+    "question": "According to Wikipedia, which astronomical observatories located in Asia and situated between 35° and 36° latitude was constructed the earliest?",
+    "answer": "['Cheomseongdae']"
+  },
+  {
+    "id": 58,
+    "question": "Which song in Rolling Stone's list of 'The 500 Greatest Songs of All Time' was created by a band that debuted in the 1960s, and the song was released 8 years after the band's formation?",
+    "answer": "['Hey Jude']"
+  },
+  {
+    "id": 59,
+    "question": "In January 1980, the first animal mentioned in the Qur'an (according to the 1978 English translation by Sahih International) had a sacred status in a particular country. What is the holiday set aside for the birthday of the country's longest-serving foreign minister?",
+    "answer": "['Children's Day in India', 'Children's Day']"
+  },
+  {
+    "id": 60,
+    "question": "Among U.S. Presidents elected between 1900–1950, how many had grandchildren serving in Congress during their own administration, and which grandchild became a diplomat within 10 years of leaving office?",
+    "answer": "['2,William Howard Taft III']"
+  },
+  {
+    "id": 61,
+    "question": "As of 2020, a famous painting created by an artist born in Spain that depicts his sister at the age of fourteen is now housed in a museum in a country that has won the World Cup. How many times has that country won the World Cup in its history",
+    "answer": "['1']"
+  },
+  {
+    "id": 62,
+    "question": "A painting depicting Noah's Ark is displayed in a museum located in a city that once served as a port for a colonial power but was never its capital. This city was liberated during a war fought on its own soil. Which urban battle was it liberated during",
+    "answer": "['Battle of Marseille']"
+  },
+  {
+    "id": 63,
+    "question": "As of 2024, how many times has the team that Werder Bremen lost to 2-4 in the final round of the 2020–2021 season won the German 2. Bundesliga championship?",
+    "answer": "['1']"
+  },
+  {
+    "id": 64,
+    "question": "For the first album in the 21st century to win the Grammy Award for Album of the Year by a band that originated in New York State, what is the value of the expression obtained by multiplying the standard number of keys on the instrument most frequently played by the lead vocalist across all tracks by the lead vocalist’s birth year, and then dividing by the number of words in the album title? Round the result to the nearest integer.",
+    "answer": "['57141']"
+  },
+  {
+    "id": 65,
+    "question": "As of 2024, according to Wikipedia, what is the total number of floors designated for mechanical use between the 130th and 159th floors of the tallest building in the world, and what is the result when this number is converted into Roman numerals?",
+    "answer": "['IV']"
+  },
+  {
+    "id": 66,
+    "question": "Among the Turing Award laureates from 2010 to 2015, which scientists were affiliated with universities located in areas with a population density greater than 7,000 per square kilometer in 2023? List them in order of award year from earliest to latest.",
+    "answer": "['Leslie Valiant,Shafi Goldwasser,Silvio Micali,Michael Stonebraker', 'Leslie Valiant,Silvio Micali,Shafi Goldwasser,Michael Stonebraker']"
+  },
+  {
+    "id": 67,
+    "question": "The country that hosted the first modern Olympic Games has a capital city. If you count the number of letters in the English name of that capital, then add the number of years between the first modern Olympics and the first Summer Olympics held in South America, what is the total(Round the result to the nearest integer )?",
+    "answer": "['126']"
+  },
+  {
+    "id": 68,
+    "question": "A bridge, often called the longest in the world over water, is located in a country with a certain population. If you take the approximate length of the bridge in kilometers, multiply it by the number of letters in the country’s name (in English), and then divide by the number of days in a non-leap year, what is the result, rounded to two decimal places?",
+    "answer": "['2.26']"
+  },
+  {
+    "id": 69,
+    "question": "The element named after a scientist who won two Nobel Prizes has an atomic number. What is the smallest prime number that divides the sum of that atomic number and the number of countries that signed the Treaty of Tordesillas in its signing year?",
+    "answer": "['2']"
+  },
+  {
+    "id": 70,
+    "question": "In what year was the first animated short film directed by the director of the highest-grossing movie in China between 2015 and 2025 released?",
+    "answer": "['2008']"
+  },
+  {
+    "id": 71,
+    "question": "A novel awarded the Christina Stead Prize for Fiction shares the name with a 2023 Grammy-winning song. How many letters are in the name?",
+    "answer": "['12']"
+  },
+  {
+    "id": 72,
+    "question": "Which is the oldest university in the city where the first defender to be elected Miss U.S. Soccer was born?",
+    "answer": "['San Jose State University']"
+  },
+  {
+    "id": 73,
+    "question": "The artist who paintedThe Starry Night spent time in area that is now a UNESCO World Heritage site in which European country?",
+    "answer": "['France']"
+  },
+  {
+    "id": 74,
+    "question": "Among Pulitzer Prize-winning authors (fiction category) between 1990 and 2020 later served as university professors at Ivy League institutions,who was born in the city that  on the northern side of the confluence of the Licking and Ohio rivers?",
+    "answer": "['Michael Cunningham']"
+  },
+  {
+    "id": 75,
+    "question": "Assuming the capacity of a certain stadium is equal to the number of home runs hit by Babe Ruth during his professional career multiplied by 100, what is the difference in thousands between this stadium's capacity and that of the fifth-largest stadium in the United States? Round the result to one decimal place.",
+    "answer": "['28.7']"
+  },
+  {
+    "id": 76,
+    "question": "According to SkyVector, identify the airport located at the intersection of Interstate 5 and California State Route 99. If the airport’s elevation (in feet) is multiplied by the number of Grammy Awards won by Taylor Swift (as of 2025), what is the result?",
+    "answer": "['364']"
+  },
+  {
+    "id": 77,
+    "question": "Which airport has a runway longer than 3,800 meters, handles over 40 million passengers in 2023, and has an IATA code whose first two letters match the symbol of a chemical element, even though that symbol was ultimately not adopted?",
+    "answer": "['Kuala Lumpur International Airport']"
+  },
+  {
+    "id": 78,
+    "question": "A famous novel, set in a dystopian society, was published in a year whose last three digits form a palindrome. If you subtract the year of the first human moon landing from that year, and then multiply the result by the number of planets in the solar system as recognized today, what is the result?Round the result to the nearest integer and take the absolute value.",
+    "answer": "['160']"
+  },
+  {
+    "id": 79,
+    "question": "Among the 13 cantons of the Old Swiss Confederacy, three cantons have coats of arms that share the same colors and contain only two colors each. List these cantons in descending order based on the number of municipalities.",
+    "answer": "['Zürich,Lucerne,Zug']"
+  },
+  {
+    "id": 80,
+    "question": "From 1980 to 2024, how many global managing partners of McKinsey & Company have had an academic background in science, technology, engineering, or mathematics?",
+    "answer": "['3']"
+  },
+  {
+    "id": 81,
+    "question": "What is the closest Fibonacci number to the sum of the year of the signing of the treaty that ended the Gulf War and the number of permanent members of the Security Council, spliced three times?",
+    "answer": "['225851433717']"
+  },
+  {
+    "id": 82,
+    "question": "How many Fields Medalists have been produced by the university ranked number one in the QS rankings for 2025?",
+    "answer": "['8']"
+  },
+  {
+    "id": 83,
+    "question": "According to Wikipedia, as of 2024, among the three football clubs the player who suffered a spinal fracture due to a foul in the 2014 World Cup semi-final played for between 2009 and 2023, which club ranks third in terms of the ratio of goals scored to total appearances, and who is the coach that led that club to the third most championships between 2014 and 2024?",
+    "answer": "['Barcelona,Xavier Hernández']"
+  },
+  {
+    "id": 84,
+    "question": "Among Fortune 500 CEOs (2024), how many hold degrees from universities ranked top 50 in QS 2023 and serve on boards of tech companies founded after 2000?",
+    "answer": "['12']"
+  },
+  {
+    "id": 85,
+    "question": "According to Wikipedia,a cathedral with twin spires was struck by more than one air raid during World War II, and combat footage filmed near it remains well-preserved to this day. For how many years did this cathedral hold the title of the tallest building in Europe?",
+    "answer": "['10']"
+  },
+  {
+    "id": 86,
+    "question": "According to Wikipedia, how many other countries use the same reactor module as that of an abandoned nuclear power plant in Cuba?",
+    "answer": "['9']"
+  },
+  {
+    "id": 87,
+    "question": "In what year did the director of the first film that the American actor, who won the Oscar for Best Supporting Actor for 'CODA,' pass away?",
+    "answer": "['2020']"
+  },
+  {
+    "id": 88,
+    "question": "How old was the artist whose work is the most recently acquired by the Kröller-Müller Museum as of March 2025 at the time of their death?",
+    "answer": "['33','34']"
+  },
+  {
+    "id": 89,
+    "question": "According to Wikipedia, among the monetary unions established between 1970 and 1985, what is the difference in number between formal and informal unions?",
+    "answer": "['1']"
+  },
+  {
+    "id": 90,
+    "question": "In their first Olympic appearance, what was the final ranking of the national basketball team from the country of the player who won the NBA Rookie of the Year Award for the 2018-19 season?",
+    "answer": "['the fourth place ', ' 4']"
+  },
+  {
+    "id": 91,
+    "question": "The author of \"Pride and Prejudice\" is Jane Austen. A film adaptation of her novel was released in a specific year. That same year, a well - known music award was first established. What is the name of that music award?",
+    "answer": "['J Award']"
+  },
+  {
+    "id": 92,
+    "question": "According to NASA’s official website as of 2023, how many years apart are the release date of Taylor Swift’s fifth album that sold over one million copies in US in its first week and the launch date of the James Webb Space Telescope?",
+    "answer": "['1']"
+  },
+  {
+    "id": 93,
+    "question": "According to Wikipedia, how many times was the lead actress of the fifth completed feature film directed by Orson Welles nominated for an Emmy Award?",
+    "answer": "['4']"
+  },
+  {
+    "id": 94,
+    "question": "Among the creators of the economic model followed by India’s Second Plan (1956–1961), how many gold medals as honors did the scientist with an overseas education receive over the course of their lifetime?",
+    "answer": "['4']"
+  },
+  {
+    "id": 95,
+    "question": "As of 2022, how many Grammy Awards had the female artist with the most consecutive Grammy nominations for Record of the Year received by that year?",
+    "answer": "['8']"
+  },
+  {
+    "id": 96,
+    "question": "According to Wikipedia,a skyscraper over 400 meters tall features a double-skin glass façade and was completed within the two years before or after the G20 summit held in its country. How many sky gardens are there in the building’s façade?",
+    "answer": "['24']"
+  },
+  {
+    "id": 97,
+    "question": "As of 2024, which species belonging to the family Bufonidae is found exclusively in the second-largest national park by area in the Congo?",
+    "answer": "['Mertensophryne schmidti','Schmidt's snouted frog']"
+  },
+  {
+    "id": 98,
+    "question": "When AMD first incorporated the memory controller from the north bridge chip into the CPU, the processor was marked as A. At this time, Intel's latest processor product was marked as B. According to Wikipedia, how much does the maximum Max. CPU clock rate of A differ from the minimum Max. CPU clock rate of B?",
+    "answer": "['2.2GHz']"
+  },
+  {
+    "id": 99,
+    "question": "How many World Cup-winning soccer captains, who scored in a final after the 85th minute, also used to play in the Futbol Club Barcelona,,and born between 1969 and 1988?",
+    "answer": "['2']"
+  },
+  {
+    "id": 100,
+    "question": "Convert the year in which the Paris Agreement was signed into binary, reverse its bits, and convert it back to decimal. Subtract the founding year of Goldman Sachs from this number, take the result modulo 100, and what is the final answer?",
+    "answer": "['94']"
+  },
+  {
+    "id": 101,
+    "question": "A fictional \"Quantum Tower\" in Dubai has a height (meters) equal to the sum of digits in the ISBN-10 of Isaac Asimov’s *Foundation*. As of 2024, how many skyscrapers in Dubai exceed this height?",
+    "answer": "['248']"
+  },
+  {
+    "id": 102,
+    "question": "The artificially synthesized chemical element with the lowest atomic number that is named after the city where it was first discovered is found on the periodic table. If its atomic number is treated as a number of days, on which day of the week would it fall, assuming the starting day is a Monday?",
+    "answer": "['Sunday']"
+  },
+  {
+    "id": 103,
+    "question": "In 2024, according to wikipedia, on the continent with the most countries on Earth, how many times can the third largest city in the country with the largest land area accommodate the largest city in the country with the smallest land area on the continent, round answer to the nearest whole number?",
+    "answer": "['14179']"
+  },
+  {
+    "id": 104,
+    "question": "According to data from a 2022 paper in Nature, among the fields of economics, chemistry, medicine, and physics, which field had the fewest average number of Nobel laureates per year between 1969 and 2016, and what was the average number of citations for the most influential publication of the laureates in the year they received the Nobel Prize?",
+    "answer": "['Economics,2449']"
+  },
+  {
+    "id": 105,
+    "question": "As of August 1, 2024, one player from the 2022 IIHF World Ice Hockey Championship-winning team has signed a contract with the Pittsburgh Penguins of the National Hockey League (NHL). How many colors from the TikTok logo are not present in the  flag of the country where this player was born?",
+    "answer": "['3']"
+  },
+  {
+    "id": 106,
+    "question": "The philosopher who wrote Thus Spoke Zarathustra was born in a country that unified under which leader in the 19th century?",
+    "answer": "['Otto von Bismarck']"
+  },
+  {
+    "id": 107,
+    "question": "How many years apart were Kobe Bryant's retirement game and the 50th anniversary of the publication of Gabriel García Márquez's One Hundred Years of Solitude?",
+    "answer": "['1']"
+  },
+  {
+    "id": 108,
+    "question": "The number of elements in the periodic table (2025: 118) is multiplied by the atomic number of the element named after Marie Curie (Polonium, 84). Subtract the year of her first Nobel Prize (1903). What is the result?",
+    "answer": "['8009']"
+  },
+  {
+    "id": 109,
+    "question": "I am looking for a city that hosted the Summer Olympics in the 21st century, is located in a country with a population over 100 million, and has a name containing exactly two vowels in its English spelling. What is the city?",
+    "answer": "['Tokyo']"
+  },
+  {
+    "id": 110,
+    "question": "In the 2024 UEFA Champions League, which club established before 1950 is ranked the highest?",
+    "answer": "['Real madrid']"
+  },
+  {
+    "id": 111,
+    "question": "If you take the year of the scientist who formulated the theory of relativity birth and subtract it from the year the first human spaceflight occurred, then multiply by the number of colors in his homeland's flag, what is the result(Round the result to the nearest integer)?",
+    "answer": "['246']"
+  },
+  {
+    "id": 112,
+    "question": "According to wikipedia, a NASA probe captured approximately 26,000 images over six months of continuous observation, producing the most detailed global portrait of a certain planet to date. As of February 2023, how many known moons does this planet have?",
+    "answer": "['95']"
+  },
+  {
+    "id": 113,
+    "question": "The element discovered one year before the telephone was patented has an atomic number. Add this atomic number to the number of neighboring countries of the discoverer's birthplace. What is the smallest prime factor of the result?",
+    "answer": "['3']"
+  },
+  {
+    "id": 114,
+    "question": "A Nobel Prize-winning physicist born three years before the first human moon landing has an asteroid named after him. What is the asteroid's designation number?",
+    "answer": "['177415']"
+  },
+  {
+    "id": 115,
+    "question": "What is the result of subtracting the number of prime factors of the year when the Hubble Space Telescope was first upgraded with an Intel 80386-based processor from the sum of the ASCII codes of the digits in its launch year?",
+    "answer": "['210']"
+  },
+  {
+    "id": 116,
+    "question": "The number of districts in the city where the headquarters of the only Chinese company in the top three of the World's top 500 companies is located?",
+    "answer": "['16']"
+  },
+  {
+    "id": 117,
+    "question": "The novel that coined a term for dystopian surveillance was banned in a country  when the novel was published, and the country later participated in a summit pivotal to ending a 20th-century proxy war. The capital of this country was once ruled by a dynasty named after a different city. Which summit was it?",
+    "answer": "['Paris Peace Accords']"
+  },
+  {
+    "id": 118,
+    "question": "I am thinking of a musical instrument invented in a European country, played by blowing air through it, and commonly used in classical music but not typically in jazz. What is the instrument?",
+    "answer": "['oboe']"
+  },
+  {
+    "id": 119,
+    "question": "How many U.S. states ratified the 19th Amendment (women’s suffrage) within 1 year of its proposal in 1919 and also had a female governor before 1980?",
+    "answer": "['3']"
+  },
+  {
+    "id": 120,
+    "question": "The species of flower depicted in a poem that mourned a assassinated leader is native to a country that gained independence after the poem’s publication, but was colonized by a power that fought a revolution over tea taxes, and its national anthem was written by a Nobel laureate. Which revolution was that?",
+    "answer": "['American Revolution']"
+  },
+  {
+    "id": 121,
+    "question": "How many bridges longer than 2 kilometers ,spanning Europe and Asia,constructed between 2000 and 2024 ,designed by firms in Denmark?",
+    "answer": "['1']"
+  },
+  {
+    "id": 122,
+    "question": "How many years between the first general-purpose computer in the history of mankind and the appearance of the world's first commercially available microprocessor, with the answer rounded down to the nearest whole number?",
+    "answer": "['25']"
+  },
+  {
+    "id": 123,
+    "question": "Among the top 20 companies on Forbes' The World's Largest Tech Companies in 2023 list, how many more companies are based in North America than in Asia?",
+    "answer": "['5']"
+  },
+  {
+    "id": 124,
+    "question": "According to wikipedia, among all trilogy series published by Frederik Pohl, in which year was the earliest omnibus edition of the series with the second earliest average publication year released?",
+    "answer": "['1977']"
+  },
+  {
+    "id": 125,
+    "question": "Among those who died in the same year that the successor to Frederick Henry became Prince of Orange, who received a theological education and made contributions to the study of magnetism and alchemy?",
+    "answer": "['Niccolò Cabeo']"
+  },
+  {
+    "id": 126,
+    "question": "In the Swiss canton whose German name means 'Grey League,' during the federal elections from 2000 to 2010, by how many percentage points did the average vote share of the consistently highest-ranked party exceed that of the second-highest party? (Round to the nearest integer.)",
+    "answer": "['10']"
+  },
+  {
+    "id": 127,
+    "question": "A director born in the same year the first electric traffic light was invented won an Oscar for a film set in a city whose integer latitude leaves a remainder of 1 when divided by 5. What is the setting city?",
+    "answer": "['London']"
+  },
+  {
+    "id": 128,
+    "question": "According to the 2020 census, what is the population rank of the city where the oldest member of the Chinese team that first climbed the mountain featured on the back of the fourth series of the 10-yuan banknote passed away?",
+    "answer": "['4']"
+  },
+  {
+    "id": 129,
+    "question": "According to Wikipedia, when the host city of the 30th Olympic Games hosted the Olympic Games for the first time, the total value in U.S. dollars of the gold contained in the gold medals won by the top ten countries—calculated based on the international gold price on 16 April 2025—was approximately how much? (Gold medals awarded for team events are counted as one medal per event; round to the nearest whole number.)",
+    "answer": "['239184']"
+  },
+  {
+    "id": 130,
+    "question": "A fundamental constant in physics, commonly associated with gravity, was first accurately measured by a scientist whose country lies across the sea from France. If you subtract the year in which this scientist's most famous experiment was published from the year the Eiffel Tower was completed, and then divide the result by the number of sides of a hexagon, what is the quotient (rounded to the nearest integer)?",
+    "answer": "['15']"
+  },
+  {
+    "id": 131,
+    "question": "How many years are there between the publication year of the first short story collection by the 2024 Nobel Prize in Literature winner and the publication year of the novel for which she won the Nobel Prize in Literature?",
+    "answer": "[' 12 ', ' 12 years']"
+  },
+  {
+    "id": 132,
+    "question": "From 2010 to 2023, how many more Turing Award winners were affiliated with MIT compared to the University of Tennessee?",
+    "answer": "['4']"
+  },
+  {
+    "id": 133,
+    "question": "Between 2000 and 2005, how many female artists from Eastern European countries won the Eurovision Song Contest, and later entered politics after their victory? In which year did the earliest such politician first hold elected office?",
+    "answer": "['1,2006']"
+  },
+  {
+    "id": 134,
+    "question": "The battle that concluded a major 19th-century European war was fought at a specific location. If you take the year in which the battle occurred, multiply it by the number of consonants in the name of the capital city of the country to which that location currently belongs, and then determine the number of distinct prime factors of the resulting product, what is the outcome?",
+    "answer": "['4']"
+  },
+  {
+    "id": 135,
+    "question": "The 2005 UEFA Champions League final had 6 goals scored. What is the closest prime to the average goal interval?",
+    "answer": "['11']"
+  },
+  {
+    "id": 136,
+    "question": "According to Wikipedia, how many optical reflecting telescopes with effective aperture larger than 8 meters, located at elevations above 3,000 meters, are associated with the United States?",
+    "answer": "['3']"
+  },
+  {
+    "id": 137,
+    "question": "Among the World Series champions from 2010 to 2015, which year had a catcher born in South America and won with the largest margin of victory?",
+    "answer": "['2012']"
+  },
+  {
+    "id": 138,
+    "question": "How many countries that hosted the FIFA World Cup between 2000 and 2023 have a national language that is not of the Indo-European language family?",
+    "answer": "['4']"
+  },
+  {
+    "id": 139,
+    "question": "According to IMDb and Box Office Mojo, as of 2024, among all the movies released between 2005 and 2010 and received a rating of at least 8.5 on IMDb, which one has the highest domestic lifetime gross?",
+    "answer": "['The Dark Knight (2008)']"
+  },
+  {
+    "id": 140,
+    "question": "In 1999, the United States ‘Time’ magazine selected 100 important people in the 20th century in the science and technology related to the 20 people, there are European citizenship corresponds to the capitals of European countries in accordance with the order from south to north, listed these European countries.",
+    "answer": "['Italy, Switzerland, Austria,Belgium, United Kingdom,  Germany']"
+  }
+]

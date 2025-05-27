@@ -1,0 +1,16 @@
+__pycache__/
+.vscode/
+myenv/
+
+*.pyc
+*.pyo
+
+*.log
+*.log.*
+chatweb.*
+
+log/*
+
+nohup.out
+
+*.sh
