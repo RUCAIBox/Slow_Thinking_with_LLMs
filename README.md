@@ -66,7 +66,7 @@ We investigate **Code-Integrated Reasoning**, an approach where models generate 
   <img src="figures/CIR_performance.png" width="666"/>
 </p>
 <p align="center">
-  <img src="figures/passk.png" width="666"/>
+  <img src="figures/pass@k.png" width="666"/>
 </p>
 
 
