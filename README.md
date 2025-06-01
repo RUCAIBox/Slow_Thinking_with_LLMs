@@ -63,8 +63,10 @@ We investigate **Code-Integrated Reasoning (CIR)**, an approach where models gen
 - 💡 **Mechanistic Insights**: We further provide an in-depth analysis of the mechanisms behind code-integrated reasoning, explaining why and how it is effective in expanding model capabilities, improving reasoning efficiency, and providing valuable error feedback, with notable performance gains in specific problem types.
 
 <p align="center">
-  <img src="figures/CIR_performance.png" width="45%" style="display: inline-block;"/>
-  <img src="figures/passk.png" width="45%" style="display: inline-block;"/>
+  <img src="figures/CIR_performance.png" width="666"/>
+</p>
+<p align="center">
+  <img src="figures/passk.png" width="666"/>
 </p>
 
 
