@@ -13,6 +13,7 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
 ---
 
 ## Content List
+- [**Code-Integrated Reasoning**](#towards-effective-code-integrated-reasoning-report)
 - [**SimpleDeepSearcher**](#simpledeepsearcher-deep-information-seeking-via-web-powered-reasoning-trajectory-synthesis-notion
 )
 - [**OlymMATH**](#olymmath-challenging-the-boundaries-of-reasoning-an-olympiad-level-math-benchmark-for-large-language-models-report)
@@ -26,6 +27,7 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
 - [**STILL-1**](#-enhancing-llm-reasoning-with-reward-guided-tree-search-report)
 
 ## News
++ [2 June 2025] [**Code-Integrated Reasoning**](#towards-effective-code-integrated-reasoning-report): We propose an improved tool-augmented reinforcement learning approach for **code-integrated reasoning** that balances exploration and stability, achieving strong performance on five mathematical benchmarks. We further provide an in-depth analysis of the mechanisms behind code-integrated reasoning, explaining why and how it is effective. For More details, please refer to our [Project Page](https://github.com/RUCAIBox/CIR) and [Model](https://huggingface.co/RUC-AIBOX/Qwen-Math-7B-CIR).
 + [11 April 2025] [**SimpleDeepSearcher**](#simpledeepsearcher-deep-information-seeking-via-web-powered-reasoning-trajectory-synthesis-notion
 ): We propose the **SimpleDeepSearcher** framework, which aims to stimulate autonomous web search capabilities in large language models through knowledge distillation and self-distillation. By leveraging powerful reasoning models and a real-world web search environment, we carefully curated and filtered **871 high-quality training examples**, significantly enhancing model performance on complex information retrieval tasks and **outperforming existing reinforcement learning approaches**. All models and efficient fine-tuning datasets ([0.5k](https://huggingface.co/datasets/RUC-AIBOX/0.5k-data-SimpleDeepSearcher) and [0.8k](https://huggingface.co/datasets/RUC-AIBOX/0.8k-data-SimpleDeepSearcher)) have been open-sourced.For more details, please refer to our [project page](https://github.com/RUCAIBox/SimpleDeepSearcher) and [huggingface](https://huggingface.co/RUC-AIBOX/QwQ-32B-SimpleDeepSearcher) 🤗.
 + [8 April 2025] ⚡️⚡️We open source our [code](VERL-STILL) and [training data](https://huggingface.co/datasets/RUC-AIBOX/STILL-3-RL-90K) of STILL-3!
@@ -50,6 +52,23 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
 
 
 ## Detailed Contents
+### Towards Effective Code-Integrated Reasoning [[Report]](https://arxiv.org/abs/2505.24480)
+
+We investigate **Code-Integrated Reasoning**, an approach where models generate and execute code during reasoning to enhance performance, particularly in complex mathematical tasks.
+
+- 🔍 **Challenges & Strategies**: We identify key challenges in tool-augmented RL and develop strategies to balance exploration and stability during training, significantly improving training effectiveness.
+
+- 📈 **Performance**: Our method demonstrates substantial performance gains, achieving state-of-the-art results across multiple benchmarks with an average accuracy of 52.4%, surpassing several competitive baselines.
+
+- 💡 **Mechanistic Insights**: We further provide an in-depth analysis of the mechanisms behind code-integrated reasoning, explaining why and how it is effective in expanding model capabilities, improving reasoning efficiency, and providing valuable error feedback, with notable performance gains in specific problem types.
+
+<p align="center">
+  <img src="figures/CIR_performance.png" width="666"/>
+</p>
+<p align="center">
+  <img src="figures/pass@k.png" width="666"/>
+</p>
+
 
 ### SimpleDeepSearcher: Deep Information Seeking via Web-Powered Reasoning Trajectory Synthesis [[Notion]](https://sweet-walkover-f9b.notion.site/SimpleDeepSearcher-Deep-Information-Seeking-via-Web-Powered-Reasoning-Trajectory-Synthesis-1d1c27a43d7a801090d8ce1a75b2d6d0?pvs=4)
 
