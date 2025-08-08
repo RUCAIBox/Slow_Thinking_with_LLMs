@@ -1,0 +1,261 @@
+data:
+  tokenizer: null
+  train_files: /opt/aps/workdir/jiechen/train/train.parquet
+  val_files:
+  - /opt/aps/workdir/jiechen/train/aime8.parquet
+  - /opt/aps/workdir/jiechen/train/math.parquet
+  - /opt/aps/workdir/jiechen/train/amc.parquet
+  - /opt/aps/workdir/jiechen/train/aime25_8.parquet
+  prompt_key: prompt
+  reward_fn_key: data_source
+  max_prompt_length: 1024
+  max_response_length: 8192
+  gen_batch_size: 1280
+  train_batch_size: 512
+  val_batch_size: null
+  return_raw_input_ids: false
+  return_raw_chat: false
+  shuffle: true
+  filter_overlong_prompts: false
+  truncation: left
+  image_key: images
+  adarft:
+    enable: false
+    beta: 0.5
+    alpha: 2
+    eta: 50
+    d_min: 0
+    d_max: 100
+actor_rollout_ref:
+  hybrid_engine: true
+  model:
+    path: /fs/archive/share/yulan/data/20250506/dengjia/base_baseline_420_40
+    external_lib: null
+    override_config:
+      attention_dropout: 0.0
+      embd_pdrop: 0.0
+      resid_pdrop: 0.0
+    enable_gradient_checkpointing: true
+    use_remove_padding: true
+  actor:
+    strategy: fsdp
+    ppo_mini_batch_size: 32
+    ppo_micro_batch_size: null
+    ppo_micro_batch_size_per_gpu: null
+    use_dynamic_bsz: true
+    ppo_max_token_len_per_gpu: 18432
+    grad_clip: 1.0
+    mask_prob1: false
+    save_grad: false
+    save_grad_dir: /share/project/zhipengchen/dj/RFT/grad_cilp0.28_math
+    add_math_token_advantage: false
+    math_token_advantage_ratio: 0.8
+    clip_ratio: 0.2
+    clip_ratio_low: 0.2
+    clip_ratio_high: 0.28
+    use_dynamic_clip:
+      enabled: false
+      extend: 0.08
+      k: 10
+    use_ppl: false
+    positive_only: false
+    negative_only: false
+    return_pglosses: false
+    ppl_delta: 0.05
+    use_token_level_loss: true
+    entropy_coeff: 0
+    adaptive_entropy:
+      enabled: false
+      max_ent_coef: 0.08
+      min_ent_coef: -0.02
+      delta_ent_coef: 0.01
+      target_entropy: 0.35
+    use_kl_loss: false
+    use_ref: false
+    use_weighted_token_loss: false
+    punish_latent_negative_path:
+      enabled: false
+      delta: 0.01
+    return_similarity_score: false
+    add_loaction_bonus: true
+    use_sft_loss:
+      enabled: false
+      use_false_data: false
+      false_data_ratio: 0.1
+      use_label_smoothing: false
+      smooth_top_p: 0.95
+      smooth_coef: 0.8
+      upper_acc_bound: 1
+      lower_acc_bound: 0
+      delta_coef: 0.01
+      use_data_from_teacher: false
+    use_torch_compile: true
+    kl_loss_coef: 0.0
+    kl_loss_type: low_var_kl
+    ppo_epochs: 1
+    shuffle: false
+    ulysses_sequence_parallel_size: 1
+    optim:
+      lr: 1.0e-06
+      lr_warmup_steps: 10
+      lr_warmup_steps_ratio: 0.0
+      min_lr_ratio: null
+      warmup_style: constant
+      total_training_steps: -1
+      weight_decay: 0.1
+    fsdp_config:
+      wrap_policy:
+        min_num_params: 0
+      param_offload: false
+      optimizer_offload: false
+      fsdp_size: -1
+  ref:
+    fsdp_config:
+      param_offload: true
+      wrap_policy:
+        min_num_params: 0
+    path: /share/project/zhipengchen/model/Qwen2.5-7B
+    log_prob_micro_batch_size: null
+    log_prob_micro_batch_size_per_gpu: null
+    log_prob_use_dynamic_bsz: true
+    log_prob_max_token_len_per_gpu: 18432
+    ulysses_sequence_parallel_size: 1
+  rollout:
+    name: vllm
+    temperature: 1.0
+    top_k: -1
+    top_p: 1
+    use_fire_sampling: false
+    prompt_length: ${data.max_prompt_length}
+    response_length: ${data.max_response_length}
+    dtype: bfloat16
+    gpu_memory_utilization: 0.7
+    ignore_eos: false
+    enforce_eager: false
+    free_cache_engine: false
+    load_format: dummy_dtensor
+    tensor_model_parallel_size: 1
+    max_num_batched_tokens: 9216
+    max_model_len: null
+    max_num_seqs: 1024
+    log_prob_micro_batch_size: null
+    log_prob_micro_batch_size_per_gpu: null
+    log_prob_use_dynamic_bsz: true
+    log_prob_max_token_len_per_gpu: 18432
+    disable_log_stats: true
+    enable_chunked_prefill: true
+    do_sample: true
+    use_random: false
+    'n': 8
+    add_teacher_rollout:
+      enabled: false
+      'n': 0
+    val_kwargs:
+      top_k: -1
+      top_p: 0.95
+      temperature: 0.6
+      'n': 1
+      do_sample: true
+critic:
+  strategy: fsdp
+  optim:
+    lr: 1.0e-05
+    lr_warmup_steps_ratio: 0.0
+    min_lr_ratio: null
+    warmup_style: constant
+    total_training_steps: -1
+    weight_decay: 0.01
+  model:
+    path: ~/models/deepseek-llm-7b-chat
+    tokenizer_path: ${actor_rollout_ref.model.path}
+    override_config: {}
+    external_lib: ${actor_rollout_ref.model.external_lib}
+    enable_gradient_checkpointing: true
+    use_remove_padding: false
+    fsdp_config:
+      param_offload: false
+      optimizer_offload: false
+      wrap_policy:
+        min_num_params: 0
+      fsdp_size: -1
+  ppo_mini_batch_size: ${actor_rollout_ref.actor.ppo_mini_batch_size}
+  ppo_micro_batch_size: null
+  ppo_micro_batch_size_per_gpu: null
+  forward_micro_batch_size: ${critic.ppo_micro_batch_size}
+  forward_micro_batch_size_per_gpu: ${critic.ppo_micro_batch_size_per_gpu}
+  use_dynamic_bsz: ${actor_rollout_ref.actor.use_dynamic_bsz}
+  ppo_max_token_len_per_gpu: 32768
+  forward_max_token_len_per_gpu: ${critic.ppo_max_token_len_per_gpu}
+  ulysses_sequence_parallel_size: 1
+  ppo_epochs: ${actor_rollout_ref.actor.ppo_epochs}
+  shuffle: ${actor_rollout_ref.actor.shuffle}
+  grad_clip: 1.0
+  cliprange_value: 0.5
+reward_model:
+  enable: false
+  strategy: fsdp
+  model:
+    input_tokenizer: ${actor_rollout_ref.model.path}
+    path: ~/models/FsfairX-LLaMA3-RM-v0.1
+    external_lib: ${actor_rollout_ref.model.external_lib}
+    use_remove_padding: false
+    fsdp_config:
+      wrap_policy:
+        min_num_params: 0
+      param_offload: false
+      fsdp_size: -1
+  micro_batch_size: null
+  micro_batch_size_per_gpu: null
+  max_length: null
+  ulysses_sequence_parallel_size: 1
+  use_dynamic_bsz: ${critic.use_dynamic_bsz}
+  forward_max_token_len_per_gpu: ${critic.forward_max_token_len_per_gpu}
+  reward_manager: naive_log
+custom_reward_function:
+  path: null
+  name: compute_score
+  overlong_buffer:
+    enable: false
+    len: 0
+    penalty_factor: 0
+    log: false
+algorithm:
+  gamma: 1.0
+  lam: 1.0
+  adv_estimator: grpo
+  mask_negative_adv: false
+  kl_penalty: kl
+  kl_ctrl:
+    type: fixed
+    kl_coef: 0.0
+  filter_groups:
+    enable: true
+    metric: acc
+    max_num_gen_batches: 10
+    bound_filter_groups: false
+    filter_groups_low: 0
+    filter_groups_high: 1
+  save_all_data: false
+  save_grad: false
+trainer:
+  balance_batch: true
+  total_epochs: 30
+  total_training_steps: null
+  project_name: verl
+  experiment_name: math_location200_0.05
+  logger:
+  - console
+  - wandb
+  val_generations_to_log_to_wandb: 0
+  nnodes: 1
+  n_gpus_per_node: 8
+  save_freq: 20
+  resume_mode: auto
+  resume_from_path: false
+  test_freq: 10
+  critic_warmup: 0
+  default_hdfs_dir: null
+  remove_previous_ckpt_in_save: false
+  del_local_ckpt_after_load: false
+  default_local_dir: /fs/archive/share/yulan/data/20250506/dengjia/math_location200_0.05
+  val_before_train: true
