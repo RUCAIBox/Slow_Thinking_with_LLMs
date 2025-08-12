@@ -53,6 +53,17 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
 
 
 ## Detailed Contents
+### From Trial-and-Error to Improvement: A Systematic Analysis of LLM Exploration Mechanisms in RLVR [[Report]](http://arxiv.org/pdf/2508.07534v1)
+
+ We conduct a comprehensive study on LLM exploration mechanisms in RLVR, aiming to quantify, characterize, and optimize how large language models explore solution spaces during complex problem-solving.
+ 
+- 🔍 **Core Focus & Analysis**: We conduct a systematic analysis of the exploration capabilities of large language models (LLMs), examining key aspects such as the quantification of exploration boundaries, the interplay between entropy and performance, and strategies for enhancing data efficiency in reinforcement learning. Additionally, we compare the exploration behaviors of supervised fine-tuning (SFT) models, reinforcement learning (RL) models, and tool-integrated configurations, shedding light on their respective impacts on the breadth and efficiency of exploration.
+  
+- 🧠 **Key Findings**:
+  - SFT expands exploration boundaries, while RL sharpens single-attempt accuracy but constricts exploration scope.
+  - entropy-performance during RL dynamics shift with training stages (rising stage curbs errors to form reasoning patterns, plateau stage refines high-entropy key tokens), instance quality (low-PPL samples enable more robust learning), and token positions (later tokens exert greater influence on outcomes).
+  - RFT maintains exploration capacity through controlled noisy data injection and prioritization of high-entropy, high-branching-factor samples.
+- 🚀 **Strategies**: We introduce PPL- and position-aware advantage shaping techniques to boost the training efficiency of rollout data in the RL process.
 ### Towards Effective Code-Integrated Reasoning [[Report]](https://arxiv.org/abs/2505.24480)
 
 We investigate **Code-Integrated Reasoning**, an approach where models generate and execute code during reasoning to enhance performance, particularly in complex mathematical tasks.
