@@ -66,6 +66,9 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
   - entropy-performance during RL dynamics shift with training stages (rising stage curbs errors to form reasoning patterns, plateau stage refines high-entropy key tokens), instance quality (low-PPL samples enable more robust learning), and token positions (later tokens exert greater influence on outcomes).
   - RFT maintains exploration capacity through controlled noisy data injection and prioritization of high-entropy, high-branching-factor samples.
 - 🚀 **Strategies**: We introduce PPL- and position-aware advantage shaping techniques to boost the training efficiency of rollout data in the RL process.
+  <p align="center">
+  <img src="figures/acc.png" width="666"/>
+  </p>
 ### Towards Effective Code-Integrated Reasoning [[Report]](https://arxiv.org/abs/2505.24480)
 
 We investigate **Code-Integrated Reasoning**, an approach where models generate and execute code during reasoning to enhance performance, particularly in complex mathematical tasks.
