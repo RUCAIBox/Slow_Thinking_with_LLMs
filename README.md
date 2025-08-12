@@ -13,6 +13,7 @@ We are STILL exploring the uncharted territory of o1-like reasoning systems.
 ---
 
 ## Content List
+- [**LLM-Exploration-Mechanism**](#from-trial-and-error-to-improvement-a-systematic-analysis-of-llm-exploration-mechanisms-in-rlvr)
 - [**Code-Integrated Reasoning**](#towards-effective-code-integrated-reasoning-report)
 - [**ICPC-Eval**](#icpc-eval-probing-the-frontiers-of-llm-reasoning-with-competitive-programming-contests-report)
 - [**SimpleDeepSearcher**](#simpledeepsearcher-deep-information-seeking-via-web-powered-reasoning-trajectory-synthesis-notion)
