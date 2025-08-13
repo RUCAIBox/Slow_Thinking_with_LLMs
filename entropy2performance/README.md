@@ -35,7 +35,7 @@ pip install tensordict==0.6.2
 ### Train
 ```
 cd script
-bash run_ppl.sh
+bash low_ppl.sh/location.sh
 ```
 ## Citation
 ```
