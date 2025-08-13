@@ -24,3 +24,11 @@ We conduct a comprehensive study on LLM exploration mechanisms in RLVR, aiming t
 ## Quick Start
 
 ### Environment Setup
+'''
+pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+pip install flash-attn --no-build-isolation
+cd verl
+pip install -e .
+pip install vllm==0.8.5
+pip install tensordict==0.6.2
+'''
