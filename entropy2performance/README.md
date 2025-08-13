@@ -1,6 +1,9 @@
-<div align=center>
+<div align="center">
 <h1>From Trial-and-Error to Improvement: A Systematic Analysis of LLM Exploration Mechanisms in RLVR</h1>
-<a href="https://arxiv.org/abs/2508.07534" target="_blank"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv></a>
+<a href="https://arxiv.org/abs/2508.07534" target="_blank">
+    <img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv">
+</a>
+</div>
 
 ## Introduction
 
@@ -13,37 +16,11 @@ We conduct a comprehensive study on LLM exploration mechanisms in RLVR, aiming t
   - entropy-performance during RL dynamics shift with training stages (rising stage curbs errors to form reasoning patterns, plateau stage refines high-entropy key tokens), instance quality (low-PPL samples enable more robust learning), and token positions (later tokens exert greater influence on outcomes).
   - RFT maintains exploration capacity through controlled noisy data injection and prioritization of high-entropy, high-branching-factor samples.
 - 🚀 **Strategies**: We introduce PPL- and position-aware advantage shaping techniques to boost the training efficiency of rollout data in the RL process.
-  <p align="center">
+
+<p align="center">
   <img src="figures/acc.png" width="666"/>
-  </p>
+</p>
 
 ## Quick Start
 
 ### Environment Setup
-```
-pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
-pip install flash-attn --no-build-isolation
-cd verl
-pip install -e .
-pip install vllm==0.8.5
-pip install tensordict==0.6.2
-```
-
-### Train
-```
-cd scripts
-bash ppl.sh
-```
-
-## Citation
-```
-@misc{deng2025trialanderrorimprovementsystematicanalysis,
-      title={From Trial-and-Error to Improvement: A Systematic Analysis of LLM Exploration Mechanisms in RLVR}, 
-      author={Jia Deng and Jie Chen and Zhipeng Chen and Daixuan Cheng and Fei Bai and Beichen Zhang and Yinqian Min and Yanzipeng Gao and Wayne Xin Zhao and Ji-Rong Wen},
-      year={2025},
-      eprint={2508.07534},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.07534}, 
-}
-```
