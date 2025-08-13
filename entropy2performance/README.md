@@ -32,3 +32,20 @@ pip install -e .
 pip install vllm==0.8.5
 pip install tensordict==0.6.2
 ```
+### Train
+```
+cd script
+bash run_ppl.sh
+```
+## Citation
+```
+@misc{deng2025trialanderrorimprovementsystematicanalysis,
+      title={From Trial-and-Error to Improvement: A Systematic Analysis of LLM Exploration Mechanisms in RLVR}, 
+      author={Jia Deng and Jie Chen and Zhipeng Chen and Daixuan Cheng and Fei Bai and Beichen Zhang and Yinqian Min and Yanzipeng Gao and Wayne Xin Zhao and Ji-Rong Wen},
+      year={2025},
+      eprint={2508.07534},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.07534}, 
+}
+```
