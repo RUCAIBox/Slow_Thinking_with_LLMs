@@ -26,7 +26,7 @@ done
 
 # Set default model path if not provided
 if [ -z "$MODEL_PATH" ]; then
-    MODEL_PATH="/capacity/userdata/dengjia/base_ppl_with_optm/global_step_570/actor/huggingface"
+    MODEL_PATH="xx" #your model path
 fi
 
 adv_estimator=grpo #算法
